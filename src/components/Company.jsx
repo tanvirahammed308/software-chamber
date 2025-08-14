@@ -11,7 +11,7 @@ const Company = () => {
         <div className="container mx-auto py-10 ">
             <div className='flex flex-col-reverse items-center md:flex-row gap-3 justify-between'>
                 <h1 className='text-4xl md:text-6xl  font-semibold flex flex-col md:leading-15'>Our Stack Powers of <span>the <span className='text-[#A5A5A5]'>World’s</span>  Most</span> <span className='text-[#A5A5A5]'>Beloved Companies</span>  </h1>
-                <img src={company} alt="" className='w-[300px] md:w-[400px]'/>
+                <img src={company} alt="" className='w-[250px] md:w-[400px]'/>
             </div>
             {/* card */}
             <div className='bg-linear-to-r from-[#0d1418] to-[#0c1f20] flex flex-col justify-center items-center py-10 border-2 border-[#22C1AD99] rounded-lg mt-10'>
