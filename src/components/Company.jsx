@@ -10,7 +10,7 @@ const Company = () => {
     <div className="bg-linear-to-r from-[#090B0F] to-[#0c1f20] text-white  w-full  px-5 md:px-0 mt-20 pt-10">
         <div className="container mx-auto py-10 ">
             <div className='flex flex-col-reverse items-center md:flex-row gap-3 justify-between'>
-                <h1 className='text-4xl md:text-6xl font-semibold flex flex-col md:leading-15'>Our Stack Powers of <span>the <span className='text-[#A5A5A5]'>World’s</span>  Most</span> <span className='text-[#A5A5A5]'>Beloved Companies</span>  </h1>
+                <h1 className='text-4xl md:text-6xl text-center font-semibold flex flex-col md:leading-15'>Our Stack Powers of <span>the <span className='text-[#A5A5A5]'>World’s</span>  Most</span> <span className='text-[#A5A5A5]'>Beloved Companies</span>  </h1>
                 <img src={company} alt="" className='max-w-[400px]'/>
             </div>
             {/* card */}
