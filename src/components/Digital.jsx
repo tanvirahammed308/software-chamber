@@ -9,7 +9,7 @@ const Digital = () => {
             <img src={img1} alt="" className=''/>
         </div>
     {/* content */}
-    <div className='mt-8 flex flex-col md:flex-row gap-5 justify-around  '>
+    <div className='mt-8 flex flex-col items-center md:flex-row gap-5 justify-around  '>
         <div  className='text-center md:text-start'>
             <div>
                 <h1 className='font-semibold text-3xl'>20+</h1>
@@ -24,8 +24,8 @@ const Digital = () => {
                 <p className='font-semibold text-gray-400 mt-2'>Satisfied Customers</p>
             </div>
         </div>
-        <div>
-            <img src={img2} alt="" className='h-80'/>
+        <div >
+            <img src={img2} alt="" className='w-full h-80'/>
         </div>
         <div className=' space-y-5'>
             <div className='flex justify-center items-center gap-2'>
